@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(148, 153, 178);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+input {
+    height: 45px;
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+#result {
+    font-size: 24px;
+    margin-top: 20px;
+}

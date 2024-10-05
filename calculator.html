@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="calculator.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container text-center mt-5">
+        <h1 class="mb-4">Calculator</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+              
+                <div class="input-group mb-3">
+                    <input type="number" class="form-control" id="num1" placeholder="Enter first number">
+                </div>
+                <div class="input-group mb-3">
+                    <input type="number" class="form-control" id="num2" placeholder="Enter second number">
+                </div>
+
+                
+                <div class="btn-group" role="group" aria-label="Basic operations">
+                    <button class="btn btn-primary" onclick="calculate('add')">+</button>
+                    <button class="btn btn-secondary" onclick="calculate('subtract')">-</button>
+                    <button class="btn btn-success" onclick="calculate('multiply')">*</button>
+                    <button class="btn btn-danger" onclick="calculate('divide')">/</button>
+                </div>
+
+               
+                <div class="mt-4">
+                    <input type="text" id="result" class="form-control text-success" disabled placeholder="Result">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
